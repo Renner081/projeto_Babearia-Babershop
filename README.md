@@ -33,3 +33,7 @@ Facilitar o dia a dia de uma barbearia, reduzindo processos manuais e melhorando
 - JavaScript
 
 - MYSQL
+
+## Status do projeto
+
+Em desenvolvimento! ⏱️
