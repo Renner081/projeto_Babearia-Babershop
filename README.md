@@ -1,4 +1,4 @@
-# projeto_Barbearia-Barbershop
+# Projeto-Barbershop
 
 Sistema desenvolvido para automatizar e otimizar a gestão de uma barbearia, proporcionando mais eficiência no atendimento e organização dos agendamentos.
 
