@@ -1,3 +1,9 @@
+/* fonte */
+@font-face {
+    font-family: Monteserrat;
+    src: url(fontes/Montserrat-Medium.ttf);
+}
+
 body {
  background-color: #f5e7da;
  margin: 0%;
@@ -14,7 +20,7 @@ header{
 
 .Logo{
     color: black;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 30px;
 margin-left: 50px;
@@ -23,7 +29,7 @@ margin-left: 50px;
 
 .Login{
  color: black;
- font-family: "Noto Sans", sans-serif;
+ font-family: "Montserrat", sans-serif;
  font-weight: 800;
 margin-top:  14px;
 margin-right: 45px;
@@ -35,16 +41,18 @@ nav{
     gap: 30px;
  font-size: 20px;
 }
+
 nav a{
  margin-top: 15px;
  margin-left: 5px;
  margin-bottom: 10px;
  text-decoration: none;
  color: black;
-font-family: Arial, Helvetica, sans-serif;
+font-family:"Montserrat", sans-serif;
  padding-bottom: 5px;
 }
-
-
+nav a:hover{
+ border-bottom: 2px solid black;
+}
 /*Se Quiser mudar o estilo da fonte pode!
 Tamanho incorreto? pode alterar*/
