@@ -4,7 +4,7 @@
     src: url(Montserrat-Bold.ttf);
 }
 body {
- background-color: #ffffff rgb(255, 255, 255),;
+ background-color: #FAEBD7;
  margin: 0%;
 
 }
@@ -176,4 +176,22 @@ h1{
     margin-top: 50px;
     color: #333;
     font-family: "Montserrat", sans-serif;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: white;
+    background-color: #6E5435;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+    background-color: #5A4328;
 }
