@@ -1,0 +1,198 @@
+/* fonte */
+@font-face {
+    font-family: Monteserrat;
+    src: url(fontes/Montserrat-Medium.ttf);
+}
+
+body {
+ background-color:  #F9F4F4 ;
+ margin: 0%;
+
+}
+
+
+header{
+ background-color: white;
+ padding: 15px 30px;
+ display: flex;
+ justify-content: space-between;
+  align-items: center;
+}
+
+.Logo{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+margin-left: 50px;
+display: flex;
+align-items: center;
+
+}
+
+.img-logo{
+
+    height: 50px;
+    width: auto;
+}
+
+.usuario {
+   display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.Login{
+ color: black;
+ font-family: "Montserrat", sans-serif;
+ font-weight: 800;
+text-decoration: none;
+
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+ font-size: 20px;
+}
+
+nav a{
+ margin-top: 15px;
+ margin-left: 5px;
+ margin-bottom: 10px;
+ text-decoration: none;
+ color: black;
+font-family:"Montserrat", sans-serif;
+ padding-bottom: 5px;
+}
+nav a:hover{
+ border-bottom: 2px solid black;
+}
+
+.Boneco {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+}
+
+.conteudo-principal{
+    margin-left: 120px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin: 0;
+
+}
+
+
+.btn-agendar {
+    background-color: #5A3A2E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 50px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+
+}
+
+.Container-principal {
+    display: flex;
+}
+
+.classic-cut{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.fade-cut{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+}
+
+.card-principal {
+    display: flex;
+    gap: 20px;
+    padding-top: 80px;
+    padding-left: 80px;
+
+
+}
+
+.card-corte {
+    background-color: white;
+    border-radius: 15px;
+}
+.Card-corte {
+    background-color: white;
+    border-radius: 15px;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+
+}
+
+.info1 {
+    font-family: "Montserrat", sans-serif;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.info2 {
+    font-family: "Montserrat", sans-serif;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+ 
+}
+
+.card-corte button {
+    background-color: transparent;
+    border: 3px solid #f7ecec;
+    color: #5D4037;
+    padding: 10px 20px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 18px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.Card-corte button {
+    background-color: transparent;
+    border: 3px solid #f7ecec;
+    color: #5D4037;
+    padding: 10px 20px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 18px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
